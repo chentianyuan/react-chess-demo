@@ -1,0 +1,20 @@
+.chessBoard{
+    width: 280px;
+    height: 280px;
+    position: relative;
+    background: burlywood;
+    padding: 10px;
+}
+.chess-cell{
+    flex-basis: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+.chess-cell:nth-child(n+183){
+    border-bottom: 1px solid #000;
+}
+.chess-cell:nth-child(14n+1){
+    border-left: 1px solid #000;    
+}
